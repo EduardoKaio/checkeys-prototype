@@ -99,7 +99,7 @@ export function FlowProvider({ children }: { children: ReactNode }) {
   return (
     <FlowContext.Provider value={value}>
       {children}
-      <ResponsiveSheet open={!!sheet} onClose={close} label="Detalhes">
+      <ResponsiveSheet open={!!sheet} onClose={close} label="Detalhes" contentKey={shown ? JSON.stringify(shown) : undefined}>
         {shown && <SheetContent sheet={shown} />}
       </ResponsiveSheet>
     </FlowContext.Provider>
