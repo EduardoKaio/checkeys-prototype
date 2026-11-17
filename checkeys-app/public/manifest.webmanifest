@@ -1,0 +1,14 @@
+{
+  "name": "Checkeys · Recepção SEPA",
+  "short_name": "Checkeys",
+  "description": "Retirada e devolução das chaves do SEPA por QR Code ou NFC.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6F8F7",
+  "theme_color": "#F6F8F7",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
